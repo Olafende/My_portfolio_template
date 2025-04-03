@@ -1,3 +1,5 @@
+To see a live preview click [here](https://oakinleye-portfolio.netlify.app/). 
+
 # Portfolio Template
 [Description](#description) | [Prerequisites](#prerequisites) | [Demo](#demo) | [Important Git/Github Expectations](#important-gitgithub-expectations) | [Getting Started](#getting-started) | [Next Steps](#next-steps) | [Contributors](#contributors) | [Deployment](#deployment) | [Live Application](#live-application)
 ## Description
