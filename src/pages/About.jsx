@@ -5,9 +5,9 @@ import LinkedIn from '../assets/LinkedInPhoto.jpg';
 const firstName = 'Olafende';
 const jobTitle = 'andrology lab tech';
 const company = 'Shady Grove Fertility';
-const mainDuty = 'helping individuals start or grow their families.';
+const mainDuty = 'helping individuals start or grow their families';
 const jobLocation = 'Washington, D.C.';
-const briefJobDescription = 'I independently managed lab operations at a satellite location, ensuring efficient workflow and compliance with industry standards. My responsibilities included processing specimens for routine semen analysis—assessing concentration, motility, morphology, and leucocyte identification. I also performed semen preparation for ART procedures, intrauterine inseminations (IUIs), and cryopreservation. Additionally, I handled the shipping, receiving, and disposition of frozen samples, maintaining proper documentation and chain of custody. ';
+const briefJobDescription = 'I independently managed lab operations at a satellite location, ensuring efficient workflow and compliance with industry standards. My responsibilities included processing specimens for routine semen analysis, assessing concentration, motility, morphology, and leucocyte identification. I also performed semen preparation for ART procedures, intrauterine inseminations (IUIs), and cryopreservation. Additionally, I handled the shipping, receiving, and disposition of frozen samples, maintaining proper documentation and chain of custody. ';
 const careerObjective = 'My career goal is to transition from healthcare and laboratory work into software development, specifically as a software developer.';
 const personalLife = 'One thing to know about me is that I love bubble tea! I also enjoy hanging with family  while I do the former. ';
 
@@ -20,7 +20,7 @@ const About = () => {
           <img className='headshot' src={LinkedIn} alt="placeholder image" />
         </section>
         <section className='description-container'>
-          <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>
+          <h2 className='text-xl font-medium'>I&apos;m {firstName}, an {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>
           <p>{briefJobDescription}</p>
           <p>{careerObjective}</p>
           <p>{personalLife}&#128512;</p>
