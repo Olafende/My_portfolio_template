@@ -18,7 +18,7 @@ const Home = () => {
           1000,
         ]}
         wrapper="span"
-        speed={200}
+        speed={50}
         classname="text-6xl font-bold"
         repeat={1}/>
        </h2>
