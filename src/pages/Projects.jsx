@@ -1,17 +1,14 @@
-import { FaGithub } from "react-icons/fa6";
-import Weather from "../assets/Birds2.jpg"
-// Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
-// properties:
-// - title: The title of the project
-// - description: A description of the project
-// - repositoryLink: A link to the GitHub repository of the project
-// You can also add more properties if you want to display more information about your projects.
+import Food from "../assets/FoodWebsite.jpg";
+import Weather from "../assets/Weather.jpg";
+import Book from "../assets/Book.jpg"
+import Task from "../assets/Task.jpg"
+import Email from "../assets/Email.jpg"
 const myProjects = [
   {
-    image: <img src={Weather}/>,
+    image: <img src={Food}/>,
     title: 'Food-Ordering Website',
-    description: 'Description of project 1',
-    repositoryLink: 'Link to the GitHub repository',
+    description: 'Enterprise-Level Food Ordering Platform  using  React, Node.js, MongoDB, Auth, Stripe, render.com, and more!',
+    repositoryLink: 'https://github.com/Olafende/Final-Project-Frontend',
   },
   {
     image: <img src={Weather}/>,
@@ -20,22 +17,22 @@ const myProjects = [
     repositoryLink: 'https://github.com/Olafende/Weather-App-Template',
   },
   {
-    image: <img src={Weather}/>,
+    image: <img src={Book}/>,
     title: 'Book Website',
     description: 'Collaborative book Store Website using HTML, CSS, and JavaScript (DOM manipulation) to reinforce client-side development basics. ',
     repositoryLink: 'https://github.com/maricelyvq/Path2tech-Dom_Project',
   },
   {
-    image: <img src={Weather}/>,
-    title: 'Javascript',
-    description: 'Description of project 4',
-    repositoryLink: 'Link to the GitHub repository',
+    image: <img src={Task}/>,
+    title: 'TODO List',
+    description: 'TODO list project using JavaScript in the index.js file. This application allows users to add, delete, and mark tasks as completed, showcasing my ability to work with the DOM and manage user interactions.',
+    repositoryLink: 'https://github.com/Olafende/JavaScript-Project',
   },
   {
-    image: <img src={Weather}/>,
-    title: 'Email CSS',
-    description: 'Description of project 5',
-    repositoryLink: 'Link to the GitHub repository',
+    image: <img src={Email}/>,
+    title: 'Email Template Webpage',
+    description: 'This project displays dynamic, user-friendly interface that enhances the email viewing experience using HTML and CSS',
+    repositoryLink: 'https://github.com/Olafende/Path2Tech_CSS_Project',
   },
 ];
 const Projects = () => {
@@ -44,7 +41,7 @@ const Projects = () => {
       {myProjects.map((project) => (
         <section key={project.title} className="project-item border border-2 rounded-lg">
           <section className="project-image-container">
-           <FaGithub/> {/* <p>{project.image}</p> */}
+           <p>{project.image}</p> 
           </section>
           <h2 className="text-xl font-semibold">{project.title}</h2>
           <p className="text-lg">{project.description}</p>

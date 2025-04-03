@@ -14,7 +14,7 @@ const Home = () => {
         <h2 className="text-4xl mb-2">
          <TypeAnimation 
         sequence={[
-          "Welcome, I am Olafende Akinleye",
+          "Welcome, I am Olafende Akinleye.",
           1000,
         ]}
         wrapper="span"
