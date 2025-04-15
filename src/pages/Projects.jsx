@@ -3,6 +3,8 @@ import Weather from "../assets/Weather.jpg";
 import Book from "../assets/Book.jpg"
 import Task from "../assets/Task.jpg"
 import Email from "../assets/Email.jpg"
+
+
 const myProjects = [
   {
     image: <img src={Food}/>,
